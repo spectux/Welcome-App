@@ -1,0 +1,36 @@
+.welcome-container {
+  background-color: #1e293b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.heading {
+  color: #f0bb03;
+  font-family: 'Bree Serif';
+  font-size: 55px;
+}
+
+.paragraph {
+  color: #ffff;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+}
+
+.subscribe-button {
+  background-color: #ffff;
+  color: #1e293b;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-family: 'Bree Serif', serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+}
+
+.subscribe-button:hover {
+  background-color: #ffff;
+}
